@@ -26,9 +26,9 @@ class EditActivity : AppCompatActivity() {
             maxEdit.setText(bloodPress?.max.toString())
             minEdit.setText(bloodPress?.min.toString())
             pulseEdit.setText(bloodPress?.pulse.toString())
-            deleteBtn.visibility = View.VISIBLE
+            //deleteBtn.visibility = View.VISIBLE
         } else {
-            deleteBtn.visibility = View.INVISIBLE
+            //deleteBtn.visibility = View.INVISIBLE
         }
 
 
